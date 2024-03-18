@@ -127,9 +127,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="alloc.hpp" />
+    <ClInclude Include="construct.hpp" />
+    <ClInclude Include="iterator.hpp" />
+    <ClInclude Include="list.hpp" />
+    <ClInclude Include="stack.hpp" />
     <ClInclude Include="vector.hpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="allocator.hpp" />
     <ClCompile Include="test.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
